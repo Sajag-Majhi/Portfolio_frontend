@@ -1,5 +1,6 @@
 .header{
     position: sticky;
+    top: 0;
     width: 100%;
     background-color: white;
     height: 5rem;
@@ -8,32 +9,6 @@
     justify-content: space-around;
     align-items: center;
     grid-area: header;
-}
-
-.logo_name{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    grid-area: logo_name;
-}
-
-.logo{
-    width: 4rem;
-    height: 4rem;
-    background-color: #A53DFF;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: white;
-}
-
-.logo_name h1{
-    font-family: 'Work_sans_semibold';
-    font-size: 2rem;
 }
 
 .navbar{
@@ -89,12 +64,13 @@
         background-color: white;
         align-items: center;
         border-radius: 0.5rem;
+        gap: 1.5rem;
     }
 
     .menu{
         display: flex;
         flex-direction: column;
-
+        margin: 0;
         padding: 0px;
     }
 

@@ -9,6 +9,7 @@ import Section_blogs from './Components/Section_blogs/Section_blogs.jsx';
 import Section_work_together from './Components/Section_work_together/Section_work_together.jsx';
 import Section_services from './Components/Section_services/Section_services.jsx';
 import Section_form from './Components/Section_form/Section_form.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Section_blogs/>
       <Section_services/>
       <Section_form/>
+      <Footer />
     </div>
   );
 }

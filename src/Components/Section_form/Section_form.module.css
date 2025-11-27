@@ -5,4 +5,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.section button{
+    display: flex;
+    border: none;
+    font-family: 'Work_sans_semibold';
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: #A53DFF;
+    color: white;
+    border-radius: 0.5rem;
+    gap: 1rem;
 }

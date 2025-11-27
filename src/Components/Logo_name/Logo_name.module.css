@@ -1,0 +1,25 @@
+.logo_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    grid-area: logo_name;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+    background-color: #A53DFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.logo_name h1{
+    font-family: 'Work_sans_semibold';
+    font-size: 2rem;
+}

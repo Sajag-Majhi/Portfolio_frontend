@@ -1,4 +1,5 @@
 import styles from './Header.module.css'
+import Logo_name from '../Logo_name/Logo_name';
 
 function Header(){
     const toggleNavbar =()=>{
@@ -8,10 +9,7 @@ function Header(){
 
     return (
         <header className={styles.header}>
-            <div className={styles.logo_name}>
-                <div className={styles.logo}>S</div>
-                <h1>Sajag</h1>
-            </div>
+            <Logo_name/>
 
             <div className={styles.btn_burger} onClick={toggleNavbar}>≡</div>
             

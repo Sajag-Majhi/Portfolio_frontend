@@ -2,6 +2,10 @@ import styles from './Section_about.module.css'
 import git_logo from "../../assets/Vector/github.ico"
 import linkedin_logo from "../../assets/Vector/linkedin.ico"
 import fb_logo from "../../assets/Vector/fb.ico"
+import avendi from "../../assets/Vector/avendi.svg"
+import technova from "../../assets/Vector/technova.svg"
+import makit from "../../assets/Vector/makitlabs.svg"
+import KEC from "../../assets/Vector/KEC.svg"
 
 function Section_about(){
     return(
@@ -19,6 +23,16 @@ function Section_about(){
                 <img src={linkedin_logo}/>
                 <img src={fb_logo}/>
             </div>
+
+            <article>
+                <h1>Worked with</h1>
+                <div className={styles.companies}>
+                    <img src={avendi}/>
+                    <img src={technova}/>
+                    <img src={makit}/>
+                    <img src={KEC}/>
+                </div>
+            </article>
         </section>
     );
 }
