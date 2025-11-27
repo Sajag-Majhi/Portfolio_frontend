@@ -11,7 +11,7 @@ function Section_intro(){
                 within the technology sector, with a keen interest in roles focused on
                 software development and Artificial Intelligence.</p>
             
-            <button id={styles.btn_hello}>Say hello</button>
+            <button className={styles.btn_hello}>Say hello</button>
 
             <section className={styles.stats}>
                 <article>
