@@ -1,0 +1,52 @@
+.section{
+    grid-area: section_services;
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section h1{
+    font-family: 'Work_sans_semibold';
+    font-size: 3rem;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;  
+    justify-content: center;
+}
+
+.section article{
+    width: 30%;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section article img{
+    width: 60%;
+    height: auto;
+}
+
+.section article h2{
+    font-family: 'Work_sans_semibold';
+    text-align: center;
+}
+
+.section article p{
+    font-family: 'Work_sans_regular';
+    text-align: center;
+}
+
+@media (max-width:700px){
+    .section article{
+        flex: 0 0 220px;
+    }
+}
+

@@ -1,0 +1,9 @@
+.aside{
+    background-color: white;
+    grid-area: aside_intro;
+    display: flex;  
+}
+
+.aside img{
+    margin-top: 20px;
+}

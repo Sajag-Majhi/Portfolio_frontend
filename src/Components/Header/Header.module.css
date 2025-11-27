@@ -1,0 +1,113 @@
+.header{
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: header;
+}
+
+.logo_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    grid-area: logo_name;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+    background-color: #A53DFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.logo_name h1{
+    font-family: 'Work_sans_semibold';
+    font-size: 2rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    grid-area: navbar;
+}
+
+.menu{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Work_sans_medium';
+    font-size: 1rem;
+}
+
+.btn_CTA{
+    font-family: 'Work_sans_semibold';
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: #A53DFF;
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.btn_burger{
+    font-size: 3rem;
+    display: none;
+    grid-area: btn_burger;
+}
+
+@media (max-width: 700px){
+    .header{
+        display: grid;
+        column-gap: 15%;
+        grid-template-areas: 
+            "logo_name btn_burger"
+            "navbar navbar"
+        ;    
+        justify-content: stretch;
+    }
+
+    .navbar{
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        border-radius: 0.5rem;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+
+        padding: 0px;
+    }
+
+    .btn_burger{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn_CTA{
+        width: 100%;
+    }
+    
+    .navbar_active{
+        display: flex;
+    }
+}

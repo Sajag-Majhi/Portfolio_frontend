@@ -1,0 +1,45 @@
+.section{
+    display: flex;
+    background-color: white;
+    grid-area: section_about;
+    flex-direction: column;
+    padding: 2.5rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    box-sizing: border-box;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.section p{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Work_sans_regular';
+    margin: 0;
+}
+
+.section h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Work_sans_semibold';
+    margin: 0;  
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+
+@media (max-width: 700px){
+    .section{
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .section h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+}

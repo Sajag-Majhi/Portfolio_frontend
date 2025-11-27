@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(170, 163, 163) !important;
+}
+
+.app_container{
+    display: grid;
+    gap: 1rem;
+   
+    grid-template-areas: 
+        "header header"
+        "section_intro aside_intro"
+        "section_about section_about"
+        "section_project section_project"
+        "section_work_together section_work_together"
+        "section_paper section_paper"
+        "section_blog section_blog"
+        "section_services section_services"
+        "section_form section_form"
+    ;   
+}
+
+@font-face {
+    font-family: 'Work_sans_medium';
+    src: url('./assets/Fonts/WorkSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Work_sans_semibold';
+    src: url('./assets/Fonts/WorkSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Work_sans_regular';
+    src: url('./assets/Fonts/WorkSans-Regular.ttf');
+}

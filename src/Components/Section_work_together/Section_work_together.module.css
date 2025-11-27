@@ -1,0 +1,46 @@
+.section{
+    grid-area: section_work_together;
+    background-color: #132238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    gap: 2rem;
+}
+
+.section h1{
+    color: white;
+    margin: 0;
+    font-family: 'Work_sans_semibold';
+    text-align: center;
+}
+
+.section p{
+    color: #A5ACB5;
+    margin: 0;
+    font-family: 'Work_sans_regular';
+    text-align: justify;
+}
+
+.section button{
+    display: flex;
+    padding: 1rem 3rem;
+    border: none;
+    background-color: #A53DFF;
+    color: white;
+    font-family: 'Work_sans_semibold';
+}
+
+@media (max-width: 700px){
+    .section{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
