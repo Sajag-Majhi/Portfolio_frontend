@@ -63,6 +63,10 @@
     grid-area: btn_burger;
 }
 
+.btn_burger:hover{
+    cursor: pointer;
+}
+
 @media (max-width: 700px){
     .header{
         display: grid;

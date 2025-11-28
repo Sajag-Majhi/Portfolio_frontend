@@ -1,4 +1,5 @@
 import styles from './Section_blogs.module.css'
+import Card from '../Card/Card';
 
 function Section_blogs(){
     return(
@@ -6,25 +7,10 @@ function Section_blogs(){
             <h1>Blogs</h1>
 
             <div className={styles.projects}>
-                <article>
-                    <h2>Blog 1</h2>
-                    <button>View</button>
-                </article>
-
-                <article>
-                    <h2>Blog 2</h2>
-                    <button>View</button>
-                </article>
-
-                <article>
-                    <h2>Blog 3</h2>
-                    <button>View</button>
-                </article>
-
-                <article>
-                    <h2>Blog 4</h2>
-                    <button>View</button>
-                </article>
+                <Card title="Blog 1"/>
+                <Card title="Blog 2"/>
+                <Card title="Blog 3"/>
+                <Card title="Blog 4"/>
             </div>
 
         </section>

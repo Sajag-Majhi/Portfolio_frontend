@@ -1,4 +1,5 @@
 import styles from './Section_projects.module.css'
+import Card from '../Card/Card';
 
 function Section_projects(){
     return(
@@ -6,25 +7,10 @@ function Section_projects(){
             <h1>Projects</h1>
 
             <div className={styles.projects}>
-                <article>
-                    <h2>Project 1</h2>
-                    <button>View</button>
-                </article>
-
-                <article>
-                    <h2>Project 2</h2>
-                    <button>View</button>
-                </article>
-
-                <article>
-                    <h2>Project 3</h2>
-                    <button>View</button>
-                </article>
-
-                <article>
-                    <h2>Project 4</h2>
-                    <button>View</button>
-                </article>
+                <Card title="Project 1"/>
+                <Card title="Project 2"/>
+                <Card title="Project 3"/>
+                <Card title="Project 4"/>
             </div>
 
         </section>
