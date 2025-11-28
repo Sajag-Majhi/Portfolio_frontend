@@ -125,4 +125,9 @@
     .navbar_active{
         display: flex;
     }
+
+    .button:active {
+        background-color: #cc93fd; /* same effect as hover */
+    }
+
 }

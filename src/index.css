@@ -2,6 +2,10 @@ body{
     background-color: rgb(170, 163, 163) !important;
 }
 
+main{
+    display: contents;
+}
+
 .app_container{
     display: grid;
     gap: 1rem;

@@ -2,7 +2,7 @@ import styles from './Section_intro.module.css'
 
 function Section_intro(){
     return(
-        <section className={styles.section}>
+        <section className={styles.section} id="section_intro">
             <h1>Hello, I'm <br/><span id={styles.name}>Sajag Majhi</span></h1>
 
             <p>A dedicated Computer engineer with notable achievements in robotics  

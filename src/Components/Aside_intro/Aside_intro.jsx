@@ -3,7 +3,7 @@ import profile_pic from "../../assets/Vector/profile_pic.svg"
 
 function Aside_intro(){
     return (
-        <aside className={styles.aside}>
+        <aside className={styles.aside} id="aside_intro">
             <img src={profile_pic}/>
         </aside>
     );

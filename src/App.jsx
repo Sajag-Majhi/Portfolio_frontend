@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="app_container">
       <Header/>
+      <main>
       <Section_intro/>
       <Aside_intro/>
       <Section_about/>
@@ -24,6 +25,7 @@ function App() {
       <Section_blogs/>
       <Section_services/>
       <Section_form/>
+      </main>
       <Footer />
     </div>
   );

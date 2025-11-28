@@ -7,6 +7,12 @@ function Header(){
         nav.classList.toggle(styles.navbar_active);
     };
 
+    const got_to_contact =()=>{
+        const contact = document.getElementById("section_form");
+        contact.scrollIntoView({ behavior: "smooth"});
+        toggleNavbar();
+    }
+
     return (
         <header className={styles.header}>
             <Logo_name/>
@@ -15,14 +21,14 @@ function Header(){
             
             <nav className={styles.navbar}>
                 <ul className={styles.menu}>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="">Papers</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Services</a></li>
+                    <li><a href="#aside_intro" onClick={toggleNavbar}>Home</a></li>
+                    <li><a href="#section_about" onClick={toggleNavbar}>About</a></li>
+                    <li><a href="#section_project" onClick={toggleNavbar}>Project</a></li>
+                    <li><a href="#section_paper" onClick={toggleNavbar}>Papers</a></li>
+                    <li><a href="#section_blogs" onClick={toggleNavbar}>Blog</a></li>
+                    <li><a href="#section_services" onClick={toggleNavbar}>Services</a></li>
                 </ul>
-                <button className={styles.btn_CTA}>Contact</button>
+                <button className={styles.btn_CTA} onClick={got_to_contact}>Contact</button>
             </nav>
 
             

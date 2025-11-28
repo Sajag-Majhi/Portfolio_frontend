@@ -3,7 +3,7 @@ import Card from '../Card/Card';
 
 function Section_paper(){
     return(
-        <section className={styles.section}>
+        <section className={styles.section} id="section_paper">
             <h1>Papers Published</h1>
             <div className={styles.paper}>
                 <Card title="Paper 1"/>

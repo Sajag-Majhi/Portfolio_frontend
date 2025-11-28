@@ -2,6 +2,7 @@
     background-color: white;
     grid-area: aside_intro;
     display: flex;  
+    scroll-margin-top: 5rem;
 }
 
 .aside img{

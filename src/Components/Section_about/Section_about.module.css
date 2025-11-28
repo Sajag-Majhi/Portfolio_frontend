@@ -9,6 +9,7 @@
     box-sizing: border-box;
     align-items: center;
     gap: 2.5rem;
+    scroll-margin-top: 5rem;
 }
 
 .section p{

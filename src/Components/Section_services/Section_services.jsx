@@ -8,7 +8,7 @@ import metal from '../../assets/Vector/metal.svg'
 
 function Section_services(){
     return(
-        <section className={styles.section}>
+        <section className={styles.section} id="section_services">
             <h1>My Services</h1>
 
             <div className={styles.services}>

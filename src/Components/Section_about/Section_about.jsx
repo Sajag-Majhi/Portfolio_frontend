@@ -9,7 +9,7 @@ import KEC from "../../assets/Vector/KEC.svg"
 
 function Section_about(){
     return(
-        <section className={styles.section}>
+        <section className={styles.section} id="section_about">
             <h1>I am a Professional licensed <br/>Computer Engineer</h1>
 
             <p>I completed my Bachelors Degree in computer engineering from Kathmandu Engineering 
