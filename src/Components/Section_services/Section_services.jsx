@@ -4,7 +4,7 @@ import ai from '../../assets/Vector/ai.svg'
 import desktop from '../../assets/Vector/desktop.svg' 
 import embedded from '../../assets/Vector/embedded.svg' 
 import ui from '../../assets/Vector/ui.svg' 
-import metal from '../../assets/Vector/metal.svg' 
+import metal from '../../assets/Vector/Metal.svg' 
 
 function Section_services(){
     return(
