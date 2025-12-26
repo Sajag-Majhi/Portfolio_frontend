@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sajagmajhi.com.np/sitemap.xml
